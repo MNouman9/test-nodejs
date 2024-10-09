@@ -15,7 +15,7 @@ jobs:
     # Job name that shows in the GitHub UI
     name: Build Docker Images
     # Runner to use
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
